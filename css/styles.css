@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(50,150,200);
+  font-family: "Arial";
+
+}
+a{
+    color: rgb(0,0,0); 
+  }
+h2 {
+  color:rgb(256,256,256);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.quotebox{
+  width:60%;
+  /*position: relative;*/
+  text-align:center;
+  left: 30%;
+  /*height: 30%;*/
+  border: 3px;
+   /*border-style: solid; */
+  border-color: black;
+  border-radius:35px;
+}
+
+.logo{
+  background-color: rgb(50,50,50);
+  border-radius: 10px;
+ /* max-width:10%;
+  max-height:10%;*/
+  display: inline;
+}
+.topstreamerrow{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-color:;
+}
+
+.streamerrow{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-color:;
+  border-top: 2px solid rgb(256,256,256);
+}

@@ -1,0 +1,31 @@
+
+
+var  twitchNames=["freecodecamp", "ESL_SC2", "comster404"];
+var htmlstring = "";
+var streamerName, streamerIcon, streamerDesc, streamerInfo, streamerGame, streamerLevel, streamerLinkOpen, streamerLinkClose; 
+
+streamerArray = [["streamer1", "icon1", "ADCink1", "desc1"]
+                 ,["streamer2", "icon2", "link2", "desc2"]
+                 ,["streamer3", "icon3", "link3", "desc3"]
+                 ,["streamer4", "icon4", "link4", "desc4"]];
+
+var streamerArray2 = [];
+
+
+
+for (i=0;i<streamerArray.length; i++){
+ htmlstring +='<div class="row streamerrow" id="'
+            +streamerArray[i][0]
+            +'"><div class="col-xs-1">'
+            +streamerArray[i][1]
+            +'</div><div class="col-xs-3">'
+            +streamerArray[i][2]
+            +'</a></div><div class="col-xs-8  ">'
+            +streamerArray[i][3]
+            +'</div></div>';
+
+
+}
+
+ $("#fulllisting").html(htmlstring); 
+  console.log("desc is"+ streamerDesc);
