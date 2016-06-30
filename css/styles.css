@@ -10,46 +10,52 @@ h2 {
   color:rgb(256,256,256);
 }
 
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    box-sizing: border-box;
+.row{
+  height: 50px;
 }
 
-.quotebox{
-  width:60%;
-  /*position: relative;*/
-  text-align:center;
-  left: 30%;
-  /*height: 30%;*/
-  border: 3px;
-   /*border-style: solid; */
-  border-color: black;
-  border-radius:35px;
+.screenrow{
+  min-width: 100%;
+  min-height: 30px;
+  position: relative;
+  background-color: green;
 }
-
-.logo{
-  background-color: rgb(50,50,50);
-  border-radius: 10px;
- /* max-width:10%;
-  max-height:10%;*/
+.screen{
+  bottom: 1px;
+  right: 1px;
+  text-align: right;
+  vertical-align: bottom;
+  position: absolute;
+}
+.numberbutton{
+  float: left;
+  padding: 5px;
+  margin: 2px;
+  width: 30px;
+  border: solid black 1px;
+  background-color: olive;
   display: inline;
 }
-.topstreamerrow{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
-  border-color:;
-}
 
-.streamerrow{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
-  border-color:;
-  border-top: 2px solid rgb(256,256,256);
+
+.numberbuttonequal{
+  float: left;
+  padding: 5px;
+  margin: 2px;
+  width: 80px;
+  border: solid black 1px;
+  background-color: olive;
+  display: inline;
+}
+.quotebox{
+  position: absolute;
+  text-align:center;
+  left: 30%;
+  height: 50%;
+  padding: 2%;
+  margin-top: 3%;
+  background-color:red;
+  border: 3px;
+  border-color: black;
+  border-radius:35px;
 }
